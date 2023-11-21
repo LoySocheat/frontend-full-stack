@@ -212,7 +212,7 @@ const ProductForm = () => {
                                                         <img
                                                             src={`http://localhost:8000/storage/${image.image_path}`}
                                                             alt={`Product ${product.id} Image`}
-                                                            style={{ width: '100%', height: 'auto', margin: '5px', display: 'block' }}
+                                                            style={{ width: '100%', height: '100%', margin: '5px', display: 'block', objectFit: 'cover' }}
                                                         />
                                                         <div className="popup-icon" onClick= {ev => deleteImage(image)}>
                                                             <IconTrash iconColor="#ffffff"/>

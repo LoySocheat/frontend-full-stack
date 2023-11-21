@@ -53,7 +53,7 @@ const Users = () => {
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
-                            <th>Enail</th>
+                            <th>Email</th>
                             <th>Create Date</th>
                             <th>Actions</th>
                         </tr>

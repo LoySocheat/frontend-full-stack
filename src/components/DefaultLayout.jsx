@@ -26,8 +26,8 @@ const DefaultLayout = () => {
     return (
         <div id="defaultLayout">
             <aside>
-                <Link to="/dashboard">Dashboard</Link>
                 <Link to="/users">Users</Link>
+                <Link to="/dashboard">Dashboard</Link>
             </aside>
             <div className="content">
                 <header>
