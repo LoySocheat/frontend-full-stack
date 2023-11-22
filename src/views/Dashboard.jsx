@@ -19,7 +19,7 @@ const Dashboard = () => {
         axiosClient.get('/products')
             .then(({ data }) => {
                 setLoading(false);
-                _setProducts(data.products);
+                _setProducts(data.products.data);
             })
             .catch(() => {
                 setLoading(false)

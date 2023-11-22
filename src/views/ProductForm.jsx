@@ -163,7 +163,7 @@ const ProductForm = () => {
                         <label>
                             {productData.images.map((image, index) => (
                                 <div key={index}>
-                                    <input type="file" name={`images[${index}]`} onChange={(e) => handleImageChange(e, index)} />
+                                    <input type="file" name={`images[${index}]`} onChange={(e) => handleImageChange(e, index)} accept='image/png, image/jpeg, image/jpg'/>
                                 </div>
                             ))}
                             <button type="button" onClick={addImageInput} className='btn'>Add Image</button>&nbsp;&nbsp;
