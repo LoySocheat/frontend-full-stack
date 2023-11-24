@@ -203,7 +203,8 @@ const ProductForm = () => {
                         { id && <div>
                             <h3>Old Images:</h3>
                             <div className='show-images'>
-                                {product.images.length > 0 &&  <div className='main-container'>
+                                {product.images.length > 0 &&  
+                                    <div className='main-container'>
                                     <ul className='grid-wrapper'>
                                         {product.images.map((image, index) => {
                                             if (image) {
@@ -223,7 +224,8 @@ const ProductForm = () => {
                                             return null;
                                         })}
                                     </ul>
-                                </div>}
+                                    </div>
+                                }
                                 {product.images.length <= 0 &&
                                     <p className='text-center'>No Images</p>
                                 }

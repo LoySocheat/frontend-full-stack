@@ -47,7 +47,7 @@ const Dashboard = () => {
 
             }}>
                 <h1>Dashboard</h1>
-                <Link to="/products/new" className="btn-add">Add new</Link>
+                <Link to="/products/new" className="btn-add">Add New</Link>
             </div>
             <div className="card animated fadeInDown">
                 <div className="card animated fadeInDown">

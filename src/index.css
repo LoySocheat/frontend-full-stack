@@ -365,3 +365,17 @@ form h3 {
     margin: 0 10px;
     font-size: 14px;
 }
+
+.header {
+    padding: 10px;
+}
+
+.dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #000000;
+}

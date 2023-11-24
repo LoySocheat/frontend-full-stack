@@ -64,7 +64,7 @@ const Users = () => {
 
             }}>
                 <h1>Users</h1>
-                <Link to="/users/new" className="btn-add">Add new</Link>
+                <Link to="/users/new" className="btn-add">Add New</Link>
             </div>
             <div className="card animated fadeInDown ">
                 <table>

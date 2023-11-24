@@ -8,6 +8,8 @@ import GuestLayout from "./components/GuestLayout";
 import Dashboard from "./views/Dashboard";
 import UserForm from "./views/UserForm";
 import ProductForm from "./views/ProductForm";
+import ImageList from "./views/ImageList";
+import App from "./App";
 
 const router = createBrowserRouter([
     {
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
             {
                 path: '/products/:id',
                 element: <ProductForm key="productUpdate" />
+            },
+            {
+                path: '/test',
+                element: <ImageList />
+            },
+            {
+                path: '/app',
+                element: <App />
             }
         ]
     },
