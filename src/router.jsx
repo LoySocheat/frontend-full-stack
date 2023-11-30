@@ -8,8 +8,9 @@ import GuestLayout from "./components/GuestLayout";
 import Dashboard from "./views/Dashboard";
 import UserForm from "./views/UserForm";
 import ProductForm from "./views/ProductForm";
-import ImageList from "./views/ImageList";
+import Laptops from "./views/Laptops";
 import App from "./App";
+import LaptopForm from "./views/LaptopForm"
 
 const router = createBrowserRouter([
     {
@@ -45,8 +46,16 @@ const router = createBrowserRouter([
                 element: <ProductForm key="productUpdate" />
             },
             {
-                path: '/test',
-                element: <ImageList />
+                path: '/laptops',
+                element: <Laptops />
+            },
+            {
+                path: '/laptops/new',
+                element: <LaptopForm key="laptopCreate" />
+            },
+            {
+                path: '/laptops/:id',
+                element: <LaptopForm key="laptopUpdate" />
             },
             {
                 path: '/app',

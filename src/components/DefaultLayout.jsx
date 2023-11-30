@@ -27,7 +27,8 @@ const DefaultLayout = () => {
         <div id="defaultLayout">
             <aside>
                 <Link to="/users">Users</Link>
-                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/dashboard">Dashboard</Link> 
+                <Link to="/laptops">Laptop</Link> 
             </aside>
             <div className="content">
                 <header>
